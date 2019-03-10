@@ -1,4 +1,52 @@
 <svg id="earth" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.93 250">
   <title>Earth symbol</title>
+  <defs>
+    <style>
+			*{
+			margin:0px;
+			padding:0px;
+			}
+
+			svg{
+			background-color:#c6f9ff;
+			padding-top:15vh;
+			padding-right:10vw;
+			height: 500px;
+			}
+
+			path {
+			fill:aqua;
+			width: 100px;
+			animation: animate 1s linear forwards;
+			stroke: black;
+			stroke-dasharray: 30;
+			}
+
+			@keyframes animate {
+			0% {
+				transform: translateY(-5em);
+				stroke-dashoffset: 10000;
+				stroke:blue;
+				stroke-width:5px;
+				fill-opacity: .3;
+        	}
+
+       		50% {
+
+       			stroke-dashoffset: 1000;
+       			stroke-width:3px;
+       			fill-opacity: .5;
+
+        	}
+        
+        	100% {
+        		transform: translateY(15.5em) translatex(15em) rotateX(-180deg) rotateY(-180deg);
+        		stroke:aqua;
+        		stroke-width:5px;
+        		fill: Blue;
+        		fill-opacity: 1;
+        	}
+</style>
+</defs>
   <path d="M276.94,0H9A9,9,0,0,0,1.22,13.46l134,232.06a9,9,0,0,0,15.54,0l134-232.06A9,9,0,0,0,276.94,0ZM107.18,137h89.5l-44.75,77.51ZM210.5,113H93.37L42.29,24.56H261.58Z" />
 </svg>

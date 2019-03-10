@@ -1,4 +1,86 @@
 <svg id="fire" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.93 250">
   <title>Fire symbol</title>
+  <defs>
+   <style>
+			*{
+			margin:0px;
+			padding:0px;
+			}
+
+			svg{
+			background-color:white;
+			padding-top:15vh;
+			padding-right:10vw;
+			height: 500px;
+			}
+
+			path {
+			fill:white;
+			width: 100px;
+			animation: animate 6s linear forwards;
+			stroke: white;
+			stroke-dasharray: 100;
+			stroke-dashoffset: 30;
+			}
+
+			@keyframes animate {
+
+			30%{
+			fill:red;
+			stroke:blue;
+			stroke-width:7px;
+			stroke-dasharray:30;
+			stroke-dashoffset: 600;
+
+			}
+
+			40%{
+			fill:red;
+			stroke:blue;
+			stroke-width:7px;
+			stroke-dasharray:70;
+			stroke-dashoffset: 900;
+
+			}
+
+			60%{
+			stroke:red;
+			stroke-width:7px;
+			stroke-dasharray:70;
+			fill: yellow;
+			stroke-dashoffset: 1000;
+
+			}
+
+			80%{
+			stroke:yellow;
+			stroke-width:7px;
+			stroke-dasharray:70;
+			fill: orange;
+			stroke-dashoffset: 500;
+
+			}
+
+			90%{
+			stroke:orange;
+			stroke-width:7px;
+			stroke-dasharray:70;
+			fill:purple;
+			stroke-dashoffset: 400;
+			}
+
+			100%{
+			stroke:purple;
+			stroke-width:7px;
+			stroke-dasharray:70;
+			fill: black;
+			stroke-dashoffset: 1000;
+
+			}
+
+
+     
+</style>
+</defs>
   <path d="M284.71,236.54,150.73,4.49a9,9,0,0,0-15.54,0L1.22,236.54A9,9,0,0,0,9,250h268A9,9,0,0,0,284.71,236.54ZM24.35,225.44,134,35.53,243.64,225.44Z" />
 </svg>

@@ -1,4 +1,60 @@
 <svg id="water" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 285.93 250">
   <title>Water symbol</title>
+  <defs>
+  	<style>
+			*{
+			margin:0px;
+			padding:0px;
+			}
+
+			svg{
+			background-color:#1e093d;
+			padding-top:15vh;
+			padding-right:10vw;
+			height: 500px;
+			}
+
+			path {
+			fill:#e0ccff;
+			width: 100px;
+			animation: animate 5s linear forwards;
+			stroke: black;
+			stroke-dasharray: 100;
+			}
+
+			@keyframes animate {
+			0% {
+				stroke-dashoffset: 800;
+				stroke:yellow;
+				stroke-width:10px;
+				fill-opacity: .6;
+        	}
+
+       		33% {
+       			stroke-dashoffset: 400;
+       			transform: rotateX(45deg);
+       			stroke:red;
+				stroke-width:10px;
+				fill-opacity: .7;
+        	}
+
+        	66% {
+        		transform: rotateX(-45deg);
+        		stroke-dashoffset: 0;
+        		stroke:blue;
+				stroke-width:10px;
+				fill-opacity:.8;
+        	}	
+        
+        	100% {
+
+        		stroke:purple;
+        		fill-opacity: 1;
+				
+        	}
+
+    </style>
+</defs>
+
   <path d="M1.22,13.46l134,232.06a9,9,0,0,0,15.54,0l134-232.06A9,9,0,0,0,276.94,0H9A9,9,0,0,0,1.22,13.46ZM261.58,24.56,151.93,214.47,42.29,24.56Z" />
 </svg>
